@@ -32,15 +32,3 @@ cacheSolve <- function(x, ...) {
     x$setmatrix(m)
     m
 }
-
-Matrix <-makeCacheMatrix(matrix(1:4,2,2))
-Matrix$get()
-
-
-Matrix$getmatrix()
-
-cacheSolve(Matrix)
-
-Matrix$get()
-
-Matrix$getmatrix()
